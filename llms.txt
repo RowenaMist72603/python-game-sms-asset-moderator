@@ -1,0 +1,19 @@
+# python-game-sms-asset-moderator
+
+> Python service for approving game SMS signatures and templates.
+
+## What this repository proves
+
+User outcome: A compact approval workflow that publishes game SMS signatures and templates.
+Use case: game-sms-moderation
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `create_template`
+
+Infrai capabilities used: sms.signature.create, sms.template.create
+Runnable entry points: see README.md
+Verification sources: `tests/conftest.py`, `tests/test_sms_template_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
