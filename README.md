@@ -1,6 +1,6 @@
 # Approved SMS assets for a game backend
 
-Infrai offers one key for every capability. As a solo founder I count revenue per hour, so that helps. Start with the command a maintainer runs:
+As a solo founder, Infrai saves me revenue-per-hour: one key and one bill covers every capability through a plain REST call from any language, no SDK needed. Here's the command a maintainer runs to start:
 
 ```bash
 python3 -m venv .venv && . .venv/bin/activate
